@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SilosComponent } from './silos/silos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SilosComponent
   ],
   imports: [
     BrowserModule,
